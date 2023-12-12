@@ -62,7 +62,7 @@ def fastmap_PASPD(G, K, e=0.0001, set_num=2, C=10):
 			v_c = np.argmax(d_ai_new2)
 			if v_c == v_b:
 				break
-			else:
+			elif t < C - 1:
 				v_b = v_a
 				v_a = v_c
 				d_ib_new2 = d_ai_new2
