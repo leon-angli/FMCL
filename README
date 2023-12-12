@@ -1,0 +1,9 @@
+To run the code, please use Python 3 and see the following instructions.
+
+The following libraries are required: networkx, numpy, pandas, falconn, sklearn, scipy, glob, matplotlib, seaborn, networkit.
+
+To conduct the experiments for the various measures of centrality, please run fmcl.py. The results will be saved in the folder tables.
+
+To conduct the experiments for the various measures of projected centrality without comparing against the adapted competing solvers, please run real_centrality/experiments.py. The results will be saved in the folder real_centrality/tables.
+
+To conduct the experiments for the various measures of projected centrality with comparing against the adapted competing solvers, please run real_centrality/adp_experiments.py. The results will be saved in the folder real_centrality/adptables.
