@@ -64,7 +64,7 @@ def real_topk_tests(path, frac, measure, k, weighted=True, trial=1, outfile='tab
 
 if __name__ == '__main__':
 	frac, k, trial = 0.5, 10, 1
-	measures = ['har']
+	measures = ['clo', 'har']
 	weighteds = [False, True, True, True, False, False, False]
 	datasets = ['DIMACS', 'wDIMACS', 'TSP', 'Tree', 'SmallWorld', 'movingAI', 'movingAI2']
 
